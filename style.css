@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body {
+    background-color: aqua;
+}
+.contact-us {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    
+}
+h2 {
+    width: fit-content;
+padding: 20px 0 0 40px;
+color: black;
+text-transform: uppercase;
+font-family: monospace;
+font-size: 28px;
+margin-bottom: 1%;
+}
+.address {
+    width: 95%;
+    height: auto;
+    background: white;
+    margin: auto;
+    border: 2px solid black;
+}
+.para1 {
+    color: black;
+    padding: 15px 0 0 22px;
+}
+.address-flex {
+    display: flex;
+justify-content: space-between;
+width: 85%;
+height: auto;
+align-items: center;
+margin-left: 21px;
+color: black;
+padding: 3px 0 9px;
+}
+.address-flex p {
+letter-spacing: 1px;
+font-weight: 600;
+}
+.namber-gmail {
+font-weight: 600;
+}
+
+
+.fa-map-marker {
+font-size: 35px !important;
+color: red;
+}
+
+.dp {
+    display: none !important;
+}
+
+.social {
+/* background: green; */
+display: flex;
+flex-direction: column;
+width: 225px;
+padding: 2px;
+}
+.fa-phone {
+background: red;
+padding: 3%;
+border-radius: 3px;
+color: white;
+}
+.phone {
+display: flex;
+}
+.nmbr {
+margin-top: 2%;
+margin-left: 3%;
+color: red;
+}
+.mail {
+display: flex;
+margin-top: 2%;
+color: blue;
+}
+.fa-envelope {
+padding: 2%;
+background: blue;
+color: white;
+border-radius: 3px;
+}
+.mal {
+margin-left: 2%;
+}
+
+input {
+width: 317px;
+padding: 8px;
+border-radius: 3px;
+border: none;
+border: 1px solid grey;
+outline: none;
+}
+/*--------- main-contend -------- */
+
+
+.contend {
+width: 95%;
+height: auto;
+background: aquamarine;
+margin: auto;
+margin-top: 1%;
+border: 2px solid black;
+}
+.Name-Compeny {
+width: 50%;
+background-color: white;
+text-align: center;
+padding: 2%;
+}
+.inp {
+margin-top: 3%;
+}
+.textarea-1 {
+height: 110px;
+border: none;
+outline: none;
+width: 652px;
+border: 1px solid gray;
+border-radius: 5px;
+margin-top: 3%;
+}
+button {
+color: white;
+background: red;
+padding: 10px;
+border-radius: 5px;
+font-weight: 600;
+width: 70px;
+margin-top: 1%;
+margin-right: 87%;
+}
+.left {
+margin-left: 2%;
+}
+.map {
+width: 50%;
+height: 440px;
+background-color: white;
+padding: 3%;
+}
+.all {
+display: flex;
+}
+.f-b {
+background: blue;
+width: 40px;
+height: 40px;
+border-radius: 3px;
+text-align: center;
+line-height: 40px;
+}
+.fa-facebook {
+color: white;
+} 
+.t-r {
+background: rgb(0, 255, 251);
+width: 40px;
+height: 40px;
+border-radius: 3px;
+text-align: center;
+line-height: 40px;
+}
+.fa-twitter {
+color: white;
+}
+.fa-pinterest {
+color: white;
+}
+.i-n {
+background: rgb(0, 162, 255);
+width: 40px;
+height: 40px;
+border-radius: 3px;
+text-align: center;
+line-height: 40px;
+}
+.g-t {
+background: black;
+width: 40px;
+height: 40px;
+border-radius: 3px;
+text-align: center;
+line-height: 40px;
+}
+.fa-github {
+color: white;
+}
+.s-icon {
+display: flex;
+/* background: yellow; */
+width: 200px;
+justify-content: space-between;
+margin-top: 1%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+    .address-flex {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        /* margin-left: 21px; */
+        color: black;
+        /* padding: 3px 0 9px; */
+        flex-direction: column;
+    }
+
+    .dp {
+        display: block !important;
+    }
+
+    .address-flex p {
+        letter-spacing: 1px;
+        font-weight: 600;
+        margin-right: 46%;
+        margin-top: 4%;
+    }
+
+    .namber-gmail {
+        font-weight: 600;
+        margin-right: 26%;
+        margin-top: 5%;
+    }
+
+    .mp {
+        /* background: green; */
+        width: fit-content;
+        margin-right: 18%;
+        font-size: 25px;
+        display: none;
+    }
+    
+    h2 {
+        width: 210px;
+        padding: 15px 0 0 11px;
+        color: black;
+        text-transform: uppercase;
+        font-family: monospace;
+        font-size: 28px;
+        margin-bottom: 1%;
+        /* background: green; */
+    }
+
+    .fa-map-marker {
+        font-size: 40px !important;
+        color: red;
+        margin-left: 85%;
+        margin-top: -19%;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Name-Compeny {
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        padding: 2%;
+    }
+
+    input {
+        width: 90%;
+        padding: 8px;
+        border-radius: 3px;
+        border: none;
+        border: 1px solid grey;
+        outline: none;
+        margin-top: 3%;
+    }
+
+    .inp {
+        margin-top: 0%;
+    }
+
+    .left {
+        margin-left: 0%;
+    }
+
+    .textarea-1 {
+        height: 110px;
+        border: none;
+        outline: none;
+        width: 90%;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-top: 3%;
+        padding: 3%;
+    }
+
+    button {
+        color: white;
+        background: red;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: 600;
+        width: 70px;
+        margin-top: 1%;
+        margin-right: 66%;
+    }
+
+    .map {
+        width: 100%;
+        height: 372px;
+        background-color: white;
+        padding: 3%;
+    }
+
+    .s-icon {
+        display: flex;
+        /* background: yellow; */
+        width: 200px;
+        justify-content: space-between;
+        margin-top: 3%;
+        margin-left: 15%;
+    }
+}
